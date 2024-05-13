@@ -1,6 +1,6 @@
 # Image
 
-#Ronan Miquée
+# Ronan Miquée
 
 Inline-style: 
 ![alt text](https://github.com/Blazeuhh/Image/blob/main/Photos%20Ronan%20Miqu%C3%A9e.jpg" "Photos Ronan Miquée.jpg")
