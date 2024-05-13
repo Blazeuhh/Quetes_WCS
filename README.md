@@ -17,9 +17,9 @@ _Etant passionné d'informatique depuis mon plus jeune âge, je recherche un con
 
 # **Expériences professionnelles**
 
-"- Formation professionnelle Technicien supérieur en systèmes et réseaux chez Wild Code School (2024) (en cours)"
-"- Bénévole au sein de l’association ACIAH (2024)"
-"- Construction et configuration de PC  (autodidacte)"
+- Formation professionnelle Technicien supérieur en systèmes et réseaux chez Wild Code School (2024) (en cours)
+- Bénévole au sein de l’association ACIAH (2024)
+- Construction et configuration de PC  (autodidacte)
 
 # **Hobbies**
 
