@@ -14,3 +14,19 @@ _Etant passionné d'informatique depuis mon plus jeune âge, je recherche un con
 - Diplôme du PSC1 secourisme (2019)
 - Formation Cisco
 - Formation TSSR Wild Code School
+
+# **Expériences professionnelles**
+
+"- Formation professionnelle Technicien supérieur en systèmes et réseaux chez Wild Code School (2024) (en cours)"
+"- Bénévole au sein de l’association ACIAH (2024)"
+"- Construction et configuration de PC  (autodidacte)"
+
+# **Hobbies**
+
+- Sports (course à pieds , musculation , cyclisme) 
+- Informatique (hardware , systèmes, réseaux)
+- Musique 
+- Audiovisuel
+- Voyages
+- Social
+
