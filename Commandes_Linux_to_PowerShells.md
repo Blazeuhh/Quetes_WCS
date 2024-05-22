@@ -1,3 +1,7 @@
+  # *Les commandes que j'ai utilisé pour trouver leur équivalents sont Get-Help Get-Process et Get-Help Get-Process -Online ( mais je me suis aidé aussi de la documentation officielle de Microsoft Powershell )*
+
+
+
 - cp :
 **PowerShell : Copy-Item**
 
@@ -22,4 +26,4 @@
 - cat :
 **PowerShell : Get-Content**
 
-  *Les commandes que j'ai utilisé pour trouver leur équivalents sont Get-Help Get-Process et Get-Help Get-Process -Online ( mais je me suis aidé aussi de la documentation officielle de Microsoft Powershell )*
+
