@@ -1,23 +1,23 @@
-cp :
-PowerShell : Copy-Item
+- cp :
+**PowerShell : Copy-Item**
 
-rm :
-PowerShell : Remove-Item
+- rm :
+**PowerShell : Remove-Item**
 
-cd :
-PowerShell : Set-Location ou cd
+- cd :
+**PowerShell : Set-Location ou cd**
 
-mkdir :
-PowerShell : New-Item -ItemType Directory
+- mkdir :
+**PowerShell : New-Item -ItemType Directory**
 
-man :
-PowerShell : Get-Help
+- man :
+**PowerShell : Get-Help**
 
-history :
-PowerShell : Get-History
+- history :
+**PowerShell : Get-History**
 
-alias :
-PowerShell : New-Alias
+- alias :
+**PowerShell : New-Alias**
 
-cat :
-PowerShell : Get-Content
+- cat :
+**PowerShell : Get-Content**
