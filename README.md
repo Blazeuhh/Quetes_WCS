@@ -9,6 +9,7 @@
 ### - Documenter toutes les étapes
 ### - Faire une démonstration de la réalisation finale
 
+
 ## Objectif : **Configurer un accès sécurisé pour l’administration à distance d’un serveur depuis un client.**
 
 
@@ -27,5 +28,15 @@
 #### - Deux documentations au format markdown :
 #### - La première à destination des administrateurs
 #### - La seconde à destination des utilisateurs, incluant
-    
 
+### : Repartitions des rôles :
+
+#### Semaine 1 :
+
+##### Mina : Scrum master
+##### Joris : Product Owner
+
+#### Semaine 2 :
+
+##### Mohamed : Product Owner
+##### Ronan : Product Owner
