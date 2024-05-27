@@ -1,4 +1,4 @@
-# _Projet 1 - VNC_
+# Projet 1 - VNC
 
 
 
@@ -14,7 +14,7 @@
 ## **Objectif : Configurer un accès sécurisé pour l’administration à distance d’un serveur depuis un client.**
 
 
-### <u>**Pré-requis :**</u>
+### **Pré-requis :**
 
 #### *- Serveur Debian avec un environnement de bureau installé (par exemple, GNOME, XFCE).*
 #### *- Serveur SSH installé et configuré.*
