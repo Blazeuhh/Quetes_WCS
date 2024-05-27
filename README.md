@@ -32,10 +32,10 @@
 
 #### Semaine 1 :
 
-##### Mina : Scrum master
-##### Joris : Product Owner
+#### Mina : Scrum master
+#### Joris : Product Owner
 
-#### Semaine 2 :
+#### **Semaine 2 :**
 
-##### Mohamed : Scrum Master
-##### Ronan : Product Owner
+#### Mohamed : Scrum Master
+#### Ronan : Product Owner
