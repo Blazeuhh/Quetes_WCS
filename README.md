@@ -11,12 +11,14 @@
 
 ## Objectif : **Configurer un accès sécurisé pour l’administration à distance d’un serveur depuis un client.**
 
+
 ### Pré-requis :
 
 #### - Serveur Debian avec un environnement de bureau installé (par exemple, GNOME, XFCE).
 #### - Serveur SSH installé et configuré.
 #### - Logiciel VNC installé sur le serveur (par exemple, TigerVNC, TightVNC).
 #### - Client VNC installé sur la machine locale (par exemple, RealVNC, TigerVNC Viewer).
+
 
 ### Elements à implementer :
 
@@ -26,6 +28,7 @@
 #### - La première à destination des administrateurs
 #### - La seconde à destination des utilisateurs, incluant
     
+
 ### 1ère étapes : **Créer un serveur Debian**
 
 #### - économiquement plus abordable
@@ -33,6 +36,7 @@
 #### - vitesse de réponse plus importante
 #### - beaucoup de ressources à dispositions
   
+
 ### 1ère étapes : **Installer VNC**
 
 #### - Installation depuis le terminal
