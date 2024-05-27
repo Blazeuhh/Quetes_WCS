@@ -25,13 +25,13 @@
 ### **Elements à implementer :**
 
 #### *- Un client Windows 10 ou Linux Ubuntu*
-#### *- Un serveur Debian ou Windows Server 2022
-#### - Documentations destination des administrateurs
-#### - Documentations destination des utilisateurs
+#### *- Un serveur Debian ou Windows Server 2022*
+#### *- Documentations destination des administrateurs*
+#### *- Documentations destination des utilisateurs*
 
 ### **Repartitions des rôles :**
 
-#### Semaine 1 :
+#### **Semaine 1 :**
 
 #### Mina : Scrum master
 #### Joris : Product Owner
