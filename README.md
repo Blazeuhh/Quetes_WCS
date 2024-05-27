@@ -26,14 +26,14 @@
 #### - La première à destination des administrateurs
 #### - La seconde à destination des utilisateurs, incluant
     
-### 1ère étapes : ** Créer un serveur Debian **
+### 1ère étapes : **Créer un serveur Debian**
 
 #### - économiquement plus abordable
 #### - sécurisé car moins ciblé par les hackers
 #### - vitesse de réponse plus importante
 #### - beaucoup de ressources à dispositions
   
-### 1ère étapes : Installer VNC**
+### 1ère étapes : **Installer VNC**
 
 #### - Installation depuis le terminal
 
