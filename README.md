@@ -24,10 +24,9 @@
 ### **Elements à implementer :**
 
 #### *- Un client Windows 10 ou Linux Ubuntu*
-#### *- Un serveur Debian ou Windows Server 2022*
-#### **- Deux documentations au format markdown :**
-####   *- La première à destination des administrateurs*
-####   *- La seconde à destination des utilisateurs, incluant*
+#### *- Un serveur Debian ou Windows Server 2022
+#### - Documentations destination des administrateurs
+#### - Documentations destination des utilisateurs
 
 ### **Repartitions des rôles :**
 
@@ -38,5 +37,5 @@
 
 #### Semaine 2 :
 
-##### Mohamed : Product Owner
+##### Mohamed : Scrum Master
 ##### Ronan : Product Owner
