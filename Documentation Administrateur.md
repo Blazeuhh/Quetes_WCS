@@ -36,7 +36,7 @@
 
 - Consommation de ressources plus importantes
 - Dépendance à l'écosystème Microsoft
-- Sous licences et coût assez élevé, mais des ISO de version d'essai existent (nous l'utiliserons car il est mieux adapté pour notre projet)
+- Sous licences et coût assez élevé, mais des ISO de version d'essai existent (nous l'utiliserons car il est plus adapté pour notre projet)
 
 ### RealVNC :
 
