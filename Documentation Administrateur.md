@@ -38,7 +38,7 @@
 - Dépendance à l'écosystème Microsoft
 - Sous licences et coût assez élevé, mais des ISO de version d'essai existent (nous l'utiliserons car il est mieux adapté pour notre projet)
 
-#### RealVNC :
+### RealVNC :
 
 **Avantages :**
 
@@ -53,7 +53,7 @@
 
 - Licences payantes et coûts assez élevés (c'est la raison pour laquelle on ne l'utilise pas dans ce projet, mais si vous êtes une entreprise, il est conseillé d'utiliser RealVNC)
 
-#### TightVNC :
+### TightVNC :
 
 **Avantages :**
 
