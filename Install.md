@@ -1,9 +1,6 @@
 ## Installation de Windows Server 2022 avec TightVNC et une connexion SSH
 
 
-
-## Étapes pour installer Windows Server 2022 avec RealVNC et une connexion SSH :
-
 ### Étape 1 : Préparation
 
 1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
