@@ -75,8 +75,8 @@
 
 ### Etape 1 : Préparation
 
-  1. Télécharger l'ISO de Windows Server 2022 :
-Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+  1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022. 
 
   2. Télécharger et Installer VirtualBox :
 Téléchargez VirtualBox depuis VirtualBox.org et installez-le. [Télécharger VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -110,8 +110,8 @@ options par défaut à moins que vous ayez des préférences spécifiques.
 
 ### Étape 4: Configurer et Installer TightVNC
 
-  1. Télécharger et Installer TightVNC :
-Téléchargez TightVNC pour Windows et installez-le sur votre Windows Server 2022. [Télécharger TightVNC](https://www.tightvnc.com/download.php)
+  1. [Télécharger TightVNC](https://www.tightvnc.com/download.php)
+Téléchargez TightVNC pour Windows et installez-le sur votre Windows Server 2022. 
 
 
 
