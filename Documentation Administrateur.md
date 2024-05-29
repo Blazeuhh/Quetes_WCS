@@ -72,7 +72,7 @@
 ### Étape 1 : Préparation
 
 1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
-2. Télécharger et Installer VirtualBox : Téléchargez VirtualBox depuis VirtualBox.org et installez-le. [Télécharger VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. [Télécharger VirtualBox](https://www.virtualbox.org/wiki/Downloads) : Télécharger et Installer VirtualBox : Téléchargez VirtualBox depuis VirtualBox.org et installez-le. 
 
 ### Étape 2 : Création de la VM
 
