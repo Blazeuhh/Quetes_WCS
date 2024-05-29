@@ -2,7 +2,7 @@
 
 ## **Objectif :** Configurer un accès sécurisé pour l’administration à distance d’un serveur depuis un client.
 
-## Mise en pratique des compétences suivantes :
+### Mise en pratique des compétences suivantes :
 
 - Mettre en place un serveur
 - Installer et configurer un logiciel/un service
