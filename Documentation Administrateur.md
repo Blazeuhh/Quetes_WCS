@@ -2,14 +2,14 @@
 
 ### Prérequis
 
-- Serveur Windows Server 2022 avec un environnement de bureau installé.
-- Serveur SSH installé et configuré.
-- Logiciel RealVNC installé sur le serveur.
-- Client VNC installé sur la machine locale.
+*- Serveur Windows Server 2022 avec un environnement de bureau installé*
+*- Serveur SSH installé et configuré*
+*- Logiciel RealVNC installé sur le serveur*
+*- Client VNC installé sur la machine locale*
 
 ### Choix de l'OS et des logiciels :
 
-#### Debian :
+### Debian :
 
 **Avantages :**
 
@@ -24,7 +24,7 @@
 - Dépendance à l'écosystème Microsoft
 - Sous licences et coût assez élevé, mais des ISO de version d'essai existent
 
-#### Windows Server 2022 :
+### Windows Server 2022 :
 
 **Avantages :**
 
