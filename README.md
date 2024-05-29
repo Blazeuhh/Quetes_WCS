@@ -17,7 +17,7 @@
 - Documentations destinées aux administrateurs
 - Documentations destinées aux utilisateurs
 
-### Prérequis
+### Prérequis :
 
 - Serveur Windows Server 2022 avec un environnement de bureau installé
 - Serveur SSH installé et configuré
