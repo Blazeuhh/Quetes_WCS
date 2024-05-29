@@ -4,7 +4,7 @@
 
 - *Serveur Windows Server 2022 avec un environnement de bureau installé*
 - *Serveur SSH installé et configuré*
-- *Logiciel RealVNC installé sur le serveur*
+- *Logiciel TightVNC installé sur le serveur*
 - *Client VNC installé sur la machine locale*
 
 ### Choix de l'OS et des logiciels :
