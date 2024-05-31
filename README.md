@@ -38,6 +38,12 @@
 
 ## Choix de l'OS et des logiciels :
 
+### Proxmox :
+
+**Problématique : On ne pouvait pas communiquer avec nos machines entre elles à distances pour faire de la virtualisation afin de pouvoir travailler sur notre projet équitablement**
+
+**Solution : Proxmox est une plateforme de virtualisation open source qui permet la gestion des machines virtuelles entre utilisateurs sur un serveur dédiés, cela nous a donc permis de pouvoir travailler et de s'aider sur la même machine virtuelle afin de pouvoir avancer sur notre projet**
+
 ### Debian :
 
 **Avantages :**
@@ -49,9 +55,9 @@
 
 **Inconvénients :**
 
-- Consommation de ressources plus importantes
-- Dépendance à l'écosystème Microsoft
-- Sous licences et coût assez élevé, mais des ISO de version d'essai existent
+- Interface utilisateurs qui peut être difficile à appréhender
+- Pas beaucoup de compatibilité logicielle comparé à Windows Serveur 2022
+- Besoin de connaissances approfondie afin de pouvoir faire des configurations avancées 
 
 ### Windows Server 2022 :
 
