@@ -38,7 +38,7 @@
 
 ## Choix de l'OS et des logiciels :
 
-Proxmox :
+### Proxmox :
 **Problématique : Nous ne pouvions pas faire communiquer nos machines à distance pour la virtualisation, ce qui nous empêchait de collaborer efficacement sur notre projet.**
 
 **Solution : Proxmox, une plateforme de virtualisation open source, permet de gérer des machines virtuelles sur un serveur dédié. Grâce à Proxmox, nous avons pu collaborer et travailler ensemble sur la même machine virtuelle, facilitant ainsi l'avancement de notre projet.**
