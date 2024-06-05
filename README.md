@@ -34,7 +34,7 @@
 #### **Semaine 2 :**
 
 - Mohamed : Scrum Master, Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
-- Ronan : Product Owner, Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
+- Ronan : Product Owner, Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Mais aussi d'un fichier README.md pour introduire les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
 
 
 ## Choix de l'OS et des logiciels :
