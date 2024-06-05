@@ -1,7 +1,7 @@
 # Projet 1 - VNC
 
 ## **Objectif :** Configurer un accès sécurisé pour l’administration à distance d’un serveur depuis un client.
-
+> Ceci est une citation.
 ### Mise en pratique des compétences suivantes :
 
 - Mettre en place un serveur
