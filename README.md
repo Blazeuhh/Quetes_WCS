@@ -118,9 +118,9 @@
 
 #### Solutions Trouvées :
 
-Compatibilité : Utilisation de versions compatibles de VNC et gratuite TightVNC
-Pare-feu : Ouverture des ports nécessaires (par défaut, le port 5900 pour VNC) dans le pare-feu
-Sécurité : Utilisation de tunnels SSH pour sécuriser la connexion VNC
+- Compatibilité : Utilisation de versions compatibles de VNC et gratuite TightVNC
+- Pare-feu : Ouverture des ports nécessaires (par défaut, le port 5900 pour VNC) dans le pare-feu
+- Sécurité : Utilisation de tunnels SSH pour sécuriser la connexion VNC
 
 ## Tests Réalisés et Résultats obtenus :
 
