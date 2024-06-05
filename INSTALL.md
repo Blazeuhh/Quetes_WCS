@@ -25,8 +25,10 @@
 
 ### Étape 3: Installation de Windows Server 2022
 
-1. **Démarrage de la VM :** Cliquez sur "Start" pour démarrer la VM avec l'ISO. Suivez les instructions pour installer Windows Server 2022, en choisissant les options par défaut à moins que vous ayez des préférences spécifiques.
-
+1. **Démarrage de la VM :** Cliquez sur "Start" pour démarrer la VM avec l'ISO. Suivez les instructions pour installer Windows Server 2022, en choisissant les options par défaut à moins que vous ayez des préférences
+   spécifiques.
+   
+[Vidéo Tuto comment installer Tight VNC sur Windows Server 2022](https://openclassrooms.com/fr/courses/1733046-prenez-le-controle-a-distance-dun-poste-linux-windows-avec-vnc/5576651-installez-tightvnc-sous-windows-et-linux#/id/video_Player_2)
 ### Étape 4: Configuration et Installation de TightVNC
 
 1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez TightVNC pour Windows et installez-le sur votre Windows Server 2022.
