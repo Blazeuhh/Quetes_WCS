@@ -4,11 +4,11 @@
 
 > ### Mise en pratique des compétences suivantes :
 
-- Mettre en place un serveur
-- Installer et configurer un logiciel/un service
-- Réaliser un projet en équipe
-- Documenter toutes les étapes
-- Faire une démonstration de la réalisation finale
+> - Mettre en place un serveur
+> - Installer et configurer un logiciel/un service
+> - Réaliser un projet en équipe
+> - Documenter toutes les étapes
+> - Faire une démonstration de la réalisation finale
 
 ### **Éléments à implémenter :**
 
