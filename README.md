@@ -105,7 +105,7 @@
 
 ## Conclusion :
 
- ### Nous utiliserons Windows Server 2022 car il est plus adapté à l'installation du VNC  ( grâce aux fonctionnalités de sécurisation avancés ) mais surtout grâce à l'interface graphique qui nous permettra d'installer plus facilement un VNC. En parlant de VNC , le choix que l'on a fait est TightVNC grâce à sa gratuité même si RealVNC est bien meilleur en termes de fonctionnalités mais il y a une licence.
+ - Nous utiliserons Windows Server 2022 car il est plus adapté à l'installation du VNC  ( grâce aux fonctionnalités de sécurisation avancés ) mais surtout grâce à l'interface graphique qui nous permettra d'installer plus facilement un VNC. En parlant de VNC , le choix que l'on a fait est TightVNC grâce à sa gratuité même si RealVNC est bien meilleur en termes de fonctionnalités mais il y a une licence.
 
 
 
