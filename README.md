@@ -40,9 +40,9 @@
 ## Choix de l'OS et des logiciels :
 
 ### Proxmox :
-**Problématique : Nous ne pouvions pas faire communiquer nos machines à distance pour la virtualisation, ce qui nous empêchait de collaborer efficacement sur notre projet.**
+**Problématique : Nous ne pouvions pas faire communiquer nos machines à distance pour la virtualisation, ce qui nous empêchait de collaborer efficacement sur notre projet**
 
-**Solution : Proxmox, une plateforme de virtualisation open source, permet de gérer des machines virtuelles sur un serveur dédié. Grâce à Proxmox, nous avons pu collaborer et travailler ensemble sur la même machine virtuelle, facilitant ainsi l'avancement de notre projet.**
+**Solution : Proxmox, une plateforme de virtualisation open source, permet de gérer des machines virtuelles sur un serveur dédié. Grâce à Proxmox, nous avons pu collaborer et travailler ensemble sur la même machine virtuelle, facilitant ainsi l'avancement de notre projet**
 
 ### Debian :
 
@@ -113,37 +113,37 @@
 #### Problèmes recontrés :
 
 - Problèmes de Compatibilité : Différentes versions de VNC (RealVNC vs Tight Vnc) et tight vnc que partie serveur 
-- Configuration du Pare-feu : Bloquage des ports nécessaires par le pare-feu, empêchant la connexion VNC.
-- Problèmes de Sécurité : Connexion non sécurisée (non chiffrée), exposant le trafic VNC à des attaques potentielles.
+- Configuration du Pare-feu : Bloquage des ports nécessaires par le pare-feu, empêchant la connexion VNC
+- Problèmes de Sécurité : Connexion non sécurisée (non chiffrée), exposant le trafic VNC à des attaques potentielles
 
 #### Solutions Trouvées :
 
 Compatibilité : Utilisation de versions compatibles de VNC et gratuite TightVNC
-Pare-feu : Ouverture des ports nécessaires (par défaut, le port 5900 pour VNC) dans le pare-feu.
-Sécurité : Utilisation de tunnels SSH pour sécuriser la connexion VNC 
+Pare-feu : Ouverture des ports nécessaires (par défaut, le port 5900 pour VNC) dans le pare-feu
+Sécurité : Utilisation de tunnels SSH pour sécuriser la connexion VNC
 
 ## Tests Réalisés et Résultats obtenus :
 
 #### Tests de performances :
 
-- Mesure de la latence de connexion et du temps de réponse lors de l'utilisation de l'application VNC.
-- Vérification de la sécurisation de la connexion via SSH.
+- Mesure de la latence de connexion et du temps de réponse lors de l'utilisation de l'application VNC
+- Vérification de la sécurisation de la connexion via SSH
 
 #### Tests de compatibilités : 
 
-- Vérification de la compatibilité entre différentes versions de VNC et les environnements de bureau.
-- Tests sur différents systèmes d'exploitation (Windows, Linux,).
+- Vérification de la compatibilité entre différentes versions de VNC et les environnements de bureau
+- Tests sur différents systèmes d'exploitation (Windows, Linux,)
 
 #### Résultats Obtenus
 
-- Connexion Établie : Connexion VNC réussie après ouverture des ports nécessaires et configuration appropriée du serveur et du client.
-- Bonne Performance : Latence acceptable et bonne fluidité d'affichage sur des réseaux locaux.
-- Sécurité Améliorée : Connexion sécurisée via un tunnel SSH, empêchant les interceptions non autorisées.
+- Connexion Établie : Connexion VNC réussie après ouverture des ports nécessaires et configuration appropriée du serveur et du client
+- Bonne Performance : Latence acceptable et bonne fluidité d'affichage sur des réseaux locaux
+- Sécurité Améliorée : Connexion sécurisée via un tunnel SSH, empêchant les interceptions non autorisées
 
 #### Suggestions d’Améliorations Futures :
 
-- Automatisation : Création de scripts pour automatiser l'installation et la configuration de VNC server et client, incluant la configuration du pare-feu et la mise en place de tunnels SSH.
+- Automatisation : Création de scripts pour automatiser l'installation et la configuration de VNC server et client, incluant la configuration du pare-feu et la mise en place de tunnels SSH
 
-- Amélioration de la Sécurité : Intégration de méthodes d'authentification avancées comme l'utilisation de certificats SSL/TLS pour sécuriser les connexions VNC.
+- Amélioration de la Sécurité : Intégration de méthodes d'authentification avancées comme l'utilisation de certificats SSL/TLS pour sécuriser les connexions VNC
 
 
