@@ -24,17 +24,18 @@
 - Logiciel TightVNC installé sur le serveur
 - Client VNC installé sur la machine locale
 
-### **Répartitions des rôles :**
+### **Répartitions des rôles et des tâches :**
 
 #### **Semaine 1 :**
 
-- Mina : Scrum master
-- Joris : Product Owner
+- Mina : Scrum master, Ecrire la documentation du USER_GUIDE.md fournissant des instructions détaillé sur l'installation de VNC chez les utilisateurs
+- Joris : Product Owner, Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
 
 #### **Semaine 2 :**
 
-- Mohamed : Scrum Master
-- Ronan : Product Owner
+- Mohamed : Scrum Master, Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
+- Ronan : Product Owner, Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
+
 
 ## Choix de l'OS et des logiciels :
 
