@@ -104,12 +104,46 @@
 
 
 
-## Conclusion :
+### Conclusion pour le choix de l'OS et de VNC :
 
  - Nous utiliserons Windows Server 2022 car il est plus adapté à l'installation du VNC  ( grâce aux fonctionnalités de sécurisation avancés ) mais surtout grâce à l'interface graphique qui nous permettra d'installer plus facilement une VNC. En parlant de la VNC , le choix que l'on a fait est TightVNC grâce à sa gratuité même si RealVNC est bien meilleur en termes de fonctionnalités mais il y a une licence.
 
+## Problèmes recontrés et Solutions trouvés :
 
+#### Problèmes recontrés :
 
+- Problèmes de Compatibilité : Différentes versions de VNC (RealVNC vs Tight Vnc) et tight vnc que partie serveur 
+- Configuration du Pare-feu : Bloquage des ports nécessaires par le pare-feu, empêchant la connexion VNC.
+- Problèmes de Sécurité : Connexion non sécurisée (non chiffrée), exposant le trafic VNC à des attaques potentielles.
 
+#### Solutions Trouvées :
+
+Compatibilité : Utilisation de versions compatibles de VNC et gratuite TightVNC
+Pare-feu : Ouverture des ports nécessaires (par défaut, le port 5900 pour VNC) dans le pare-feu.
+Sécurité : Utilisation de tunnels SSH pour sécuriser la connexion VNC 
+
+## Tests Réalisés et Résultats obtenus :
+
+#### Tests de performances :
+
+- Mesure de la latence de connexion et du temps de réponse lors de l'utilisation de l'application VNC.
+- Vérification de la sécurisation de la connexion via SSH.
+
+#### Tests de compatibilités : 
+
+- Vérification de la compatibilité entre différentes versions de VNC et les environnements de bureau.
+- Tests sur différents systèmes d'exploitation (Windows, Linux,).
+
+#### Résultats Obtenus
+
+- Connexion Établie : Connexion VNC réussie après ouverture des ports nécessaires et configuration appropriée du serveur et du client.
+- Bonne Performance : Latence acceptable et bonne fluidité d'affichage sur des réseaux locaux.
+- Sécurité Améliorée : Connexion sécurisée via un tunnel SSH, empêchant les interceptions non autorisées.
+
+#### Suggestions d’Améliorations Futures :
+
+- Automatisation : Création de scripts pour automatiser l'installation et la configuration de VNC server et client, incluant la configuration du pare-feu et la mise en place de tunnels SSH.
+
+- Amélioration de la Sécurité : Intégration de méthodes d'authentification avancées comme l'utilisation de certificats SSL/TLS pour sécuriser les connexions VNC.
 
 
