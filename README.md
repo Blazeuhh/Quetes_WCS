@@ -36,7 +36,12 @@
 - Mohamed : Scrum Master, Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
 - Ronan : Product Owner, Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Mais aussi d'un fichier README.md pour introduire les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
 
+#### Répartition des tâches :
 
+- Mina : Ecrire la documentation du USER_GUIDE.md fournissant des instructions détaillé sur l'installation de VNC chez les utilisateurs
+- Joris : Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
+- Mohamed : Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
+- Ronan : Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Mais aussi d'un fichier README.md pour introduire les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
 ## Choix de l'OS et des logiciels :
 
 ### Proxmox :
