@@ -1,10 +1,12 @@
 # Instructions pour partitionner les disques et configurer les systèmes de fichiers
 
-## Commandes pour partitionner les disques de 6 GB et 4 GB (fdisk)
+## Partionnement et configuration des partitions
+
+Commandes pour partitionner les disques de 6 GB et 4 GB (fdisk)
 
 ![Checkpoints1_ex1_1](https://github.com/Blazeuhh/Quetes_WCS/blob/main/images/Checkpoints1_ex1_1.png?raw=true)
 
-## Utiliser `mkfs` pour savoir quelles commandes utiliser pour mettre en swap et en ext4
+Utiliser `mkfs` pour savoir quelles commandes utiliser pour mettre en swap et en ext4
 
 ![Checkpoints1_ex1_2](https://github.com/Blazeuhh/Quetes_WCS/assets/156552845/88db1dad-ef80-4d3d-9f72-7a31a46ae76d)
 
