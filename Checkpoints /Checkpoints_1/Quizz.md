@@ -1,3 +1,6 @@
+
+## QUIZZ CHECKPOINTS
+
 ### Question 1 : 
 
 `cut -d: -f1 /etc/passwd`
