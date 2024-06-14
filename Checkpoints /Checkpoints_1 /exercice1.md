@@ -10,6 +10,8 @@ Mkfs help afin de savoir quel commandes utilisé pour mettre en swap et en data
 
 ![Checkpoints1_ex1_3](https://github.com/Blazeuhh/Quetes_WCS/assets/156552845/03c4e41b-c491-4179-9424-ae3ce1819fc3)
 
+`swapoff /dev/sda2` et `sudo swapon /dev/sda2` pour configurer le swap
+
 ![Checkpoints1_ex1_4](https://github.com/Blazeuhh/Quetes_WCS/assets/156552845/8c027c09-5f99-434c-9d5d-a04fa4a908de)
 
 ![Checkpoints1_ex1_5](https://github.com/Blazeuhh/Quetes_WCS/assets/156552845/394486bb-ec6c-4b3f-8da6-1193f5cc9fde)
