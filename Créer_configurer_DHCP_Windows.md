@@ -66,6 +66,3 @@
 2. **Redémarrer la machine** et vérifier qu'elle reçoit l'adresse IP `172.20.0.10`:
     - Ouvrez une invite de commande ou un terminal et tapez les commandes mentionnées ci-dessus pour vérifier l'adresse IP attribuée.
 
-## Conclusion
-
-Suivez ces étapes pour configurer et tester le service DHCP sur Windows Server hébergé sur Proxmox.
