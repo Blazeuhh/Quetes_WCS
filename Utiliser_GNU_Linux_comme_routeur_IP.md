@@ -12,7 +12,7 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 Router(config)# interface g0/0/1
 Router(config-if)# ip address 10.0.1.1 255.255.255.0
-Router(config-if)# ipv6 address fdabcd:1234:5678:1::1/64
+Router(config-if)# ipv6 address xxxxxx:xxxx:xxxx:x::x/64
 Router(config-if)# ipv6 enable
 Router(config-if)# no shutdown
 Router(config-if)# exit
@@ -32,7 +32,7 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 Router(config)# interface g0/0/1
 Router(config-if)# ip address 10.0.2.1 255.255.255.0
-Router(config-if)# ipv6 address fdabcd:1234:5678:2::1/64
+Router(config-if)# ipv6 address xxxxxx:xxxx:xxxx:x::x/64
 Router(config-if)# ipv6 enable
 Router(config-if)# no shutdown
 Router(config-if)# exit
