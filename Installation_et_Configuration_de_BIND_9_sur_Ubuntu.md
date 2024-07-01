@@ -1,14 +1,11 @@
 # Installation et Configuration de BIND 9 sur Ubuntu
 
-# Installation et Configuration de BIND 9 sur Ubuntu
-
 ## 1. Installer le package BIND 9
 
 Nous devons installer les packages bind9, bind9utils, bind9-doc, et dnsutils pour BIND 9 et les outils associés. Ouvrez votre terminal et exécutez la commande suivante :
 
 bash
 
-Copy code
 
 $ sudo apt update
 
