@@ -6,7 +6,7 @@ Installation et Configuration de BIND 9 sur Ubuntu
 
 Nous devons installer les packages bind9, bind9utils, bind9-doc, et dnsutils pour BIND 9 et les outils associés. Ouvrez votre terminal et exécutez la commande suivante :
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy code$ sudo apt update  $ sudo apt install -y bind9 bind9utils bind9-doc dnsutils   `
+  ```$ sudo apt install -y bind9 bind9utils bind9-doc dnsutils ```
 
 2\. Configurer BIND (Serveur DNS) sur Ubuntu 24.04 | 22.04
 ----------------------------------------------------------
