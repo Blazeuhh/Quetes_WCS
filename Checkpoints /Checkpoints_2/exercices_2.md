@@ -1,3 +1,35 @@
+### Q.2.1 : Transférer les fichiers du serveur au client
+
+Pour envoyer un dossier depuis un serveur Windows Server 2022 à un client Windows 10 j'ai utilisé le partage de dossier local :
+
+#### Sur le Serveur Windows Server 2022 :
+
+1. **Créer un Partage de Dossier** :
+   - **Ouvrir l'Explorateur de Fichiers**.
+   - **Clic droit sur le dossier Scripts** et sélectionnez **Properties**.
+   - Allez dans l'onglet **Sharing** et cliquez sur **Share**.
+
+![Capture d'écran 2024-07-19 123638](https://github.com/user-attachments/assets/f155a1b3-9eee-407d-8888-2a906ea8dac3)
+
+![Capture d'écran 2024-07-19 123656](https://github.com/user-attachments/assets/7bac27a7-6024-4e54-b7a2-4e8593b6c9cc)
+
+2. **Configurer le Partage** :
+   - Cliquez sur **Everyone** pour partager avec tout le monde.
+   - Cliquez sur **Add**, puis sur **Share**.
+   - Cliquez sur **Done** lorsque le partage est terminé.
+
+![Capture d'écran 2024-07-19 123712](https://github.com/user-attachments/assets/80fbc516-cab2-4fd8-bb4a-02c9549508b8)
+
+#### Sur le Client Windows 10 :
+
+1. **Accéder au Dossier Partagé** :
+   - **Ouvrir l'Explorateur de Fichiers**.
+   - Dans la barre d'adresse, tapez le chemin du dossier partagé (par exemple, `\\WINSERV\Scripts`) et appuyez sur **Entrée**.
+   - Vous serez invité à entrer les informations d'identification si nécessaire. Entrez les informations d'identification du serveur si vous y êtes invité.
+
+![Capture d'écran 2024-07-19 123931](https://github.com/user-attachments/assets/15862ba8-93f5-4ed3-af38-0536cc746977)
+
+
 ### Q.2.2 : Problème code fichier Main.ps1
 
 Il se passe rien , le script ne se lance pas.
