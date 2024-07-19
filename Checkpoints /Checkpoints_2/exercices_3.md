@@ -47,10 +47,42 @@ PC2 peut communiquer directement uniquement avec R2 g2/0 et B g1/0 (si le routag
 
 Tous les ordinateurs et équipements de réseau listés auront besoin de routage pour atteindre le réseau 172.16.5.0/24, car ils sont tous situés dans des sous-réseaux différents. Cela signifie qu'aucun des appareils ne peut atteindre directement 172.16.5.0/24 sans passer par un routeur configuré pour acheminer le trafic vers ce réseau.
 
-Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
+### Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
 
 L'inversion des ports n'affectera généralement pas la capacité des PC2 et PC3 à communiquer avec leurs propres sous-réseaux, tant que les ports sont correctement configurés dans le même VLAN. 
 
-Q.3.10 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
+### Q.3.10 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
 
 Pour configurer les adresses IP des ordinateurs de manière dynamique, il est nécessaire de mettre en place un serveur DHCP (Dynamic Host Configuration Protocol) dans le réseau. Le DHCP est un protocole qui permet aux appareils d'obtenir automatiquement des adresses IP et d'autres paramètres de configuration réseau sans avoir à les configurer manuellement. 
+
+### Fichier 1 :
+
+### Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ? Déduis-en le nom du matériel.
+
+### Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+
+### Q.3.13 Dans cette capture, à quel matériel correspond le request et le reply ? Donne le nom, l'adresse IP, et l'adresse mac de chaque materiel.
+
+### Q.3.14 Dans le paquet N°2, quel est le protocole encapsulé ? Quel est son rôle ?
+
+### Q.3.15 Quels ont été les rôles des matériels A et B dans cette communication ?
+
+### Fichier 2 :
+
+### Q.3.16 Dans cette trame, qui initialise la communication ? Donne l'adresse IP ainsi que le nom du matériel.
+
+### Q.3.17 Quel est le protocole encapsulé ? Quel est son rôle ?
+
+### Q.3.18 Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+
+### Q.3.19 Explique la ligne du paquet N° 2
+
+### Q.3.20 Quels ont été les rôles des matériels A et B ?
+
+### Fichier 3 :
+
+### Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.
+
+### Q.3.22 Quelles sont les adresses mac source et destination ? Qu'en déduis-tu ?
+
+### Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?
