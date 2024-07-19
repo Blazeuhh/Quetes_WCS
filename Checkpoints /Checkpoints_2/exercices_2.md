@@ -15,7 +15,7 @@ if (Test-Path $scriptPath) {
 }
 ```
 
-Utilisation Incorrecte de -ArgumentList donc je l'ai remplacé par -File, il y avais un mauvais chemin donc je l'ai remplacé par "C:\Users\wilder\Downloads\AddLocalUsers.ps1".
+Utilisation Incorrecte de `-ArgumentList` donc je l'ai remplacé par `-File`, il y avais un mauvais chemin donc je l'ai remplacé par `"C:\Users\wilder\Downloads\AddLocalUsers.ps1"` et il n'y a pas de vérification si il y a déjà le script ou non donc j'ai rajouté un `if`.
 
 ### Q.2.5 : Le premier utilisateur du fichier Users.csv n'est jamais pris en compte
 
