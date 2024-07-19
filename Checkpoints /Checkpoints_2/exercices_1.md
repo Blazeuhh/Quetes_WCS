@@ -18,6 +18,11 @@ A présent, vous pouvez réesayez le ping qui devvrait désormais fonctionner :
 
 ![Capture d'écran 2024-07-19 104335](https://github.com/user-attachments/assets/93ad3edd-3fb3-4997-885d-d38af5c4562e)
 
+### Q.1.2 Ping avec les noms des machines 
+
+Si les pings sont réussis, cela confirme que la résolution de noms fonctionne correctement.
+
+![Capture d'écran 2024-07-19 092610](https://github.com/user-attachments/assets/020b0e21-c8e3-4df4-a794-80d241a1fd51)
 
 ### Q.1.3 Désactivation du protocole IPv6 et vérification
 
@@ -35,24 +40,43 @@ Nous retestions comme demandé si il y a une anomalie avec le ping , il n'y a pa
 
 ### Q.1.4 Configuration DHCP
 
+- Ici on peut voir que le serveur a déjà le DNS et le DHCP protocoles d'installés donc je vais passer à la configuration : 
+
 ![Capture d'écran 2024-07-19 093027](https://github.com/user-attachments/assets/358c4c44-8b1b-400e-9f04-1871780bde19)
+
+- Allez dans **Outils** puis cliquez sur DHCP.
 
 ![Capture d'écran 2024-07-19 093231](https://github.com/user-attachments/assets/e33ee5fd-c0a9-485b-9d4a-15b14d1e5c2f)
 
+- Déroulez l'arborescence puis faites clique droit sur **IPV4** afin de **Créer une nouvelle étendue**
+
 ![Capture d'écran 2024-07-19 093326](https://github.com/user-attachments/assets/b88583ce-66e4-4145-8179-362bfc6f9d8f)
 
+- Donnez des plages d'adresses que vous voulez mettre pour attribuer les adresses IP souhaités à vos machines ( ici cela sera 172.16.10.11 jusqu'à 172.16.10.20 ) 
+
 ![Capture d'écran 2024-07-19 093706](https://github.com/user-attachments/assets/c0dfd53f-7735-47be-aef9-a7ea52ac845d)
+
+- Ici nous pouvons voir que notre étendue à bien été créer, d'ailleurs une autre étendue été déjà présente ?
 
 ![Capture d'écran 2024-07-19 095045](https://github.com/user-attachments/assets/5606d196-1598-401d-afc8-38e396802082)
 
 ### Q.1.5 Pourquoi le client ne récupère pas la 1ère adresse disponible ?
 
-- Les serveurs DHCP utilisent souvent des mécanismes pour éviter l'attribution de la première adresse d'une plage pour éviter les conflits avec des adresses statiques ou pour réserver certaines adresses.
+- Les serveurs DHCP utilisent souvent des mécanismes pour éviter l'attribution de la première adresse d'une plage pour éviter les conflits avec des adresses statiques ou pour réserver certaines adresses. Mais dans ce cas précis nous pouvons voir qu'il y a une étendue déjà de créer. Si l'on clique dessus et qu'on va dans les **Attributions d'adresses** , on constate qu'il y a des restrictions d'adresses. On peut voir ceci :
   
 ![Capture d'écran 2024-07-19 095101](https://github.com/user-attachments/assets/a559a09a-fda6-470b-b0b3-65ab7a0bff75)
 
+Cela signifie que les plages `172.16.10.1` jusqu'à `172.16.10.19` et `172.16.10.241` jusqu'à `172.16.10.254` ne peuvent pas être prise. C'est pour cela que l'adresse Ip que notre client a prise est celle-ci :
+
+![Capture d'écran 2024-07-19 133126](https://github.com/user-attachments/assets/83f933da-7216-48af-b0da-1ebdfe4e5646)
+
 ### Q.1.6 Configuration DHCP pour une adresse IP fixe
 
+Pour mettre l'adresse IP  `172.16.10.15` au client , il va falloir tout d'abord supprimer la scope qui nous empêche de créer `172.16.10.1` jusqu'à `172.16.10.19` 
+Ensuite il va falloir créer une réservation :
+ - Allez dans le menu **DHCP**, **IPV4**, faites un clique droit sur **Réservations** puis **New-réservations**
+ - Complétez les informations comme ci-dessous :
+ 
 ![Capture d'écran 2024-07-19 101934](https://github.com/user-attachments/assets/c3b47b62-215a-4476-a783-08a0ddbfa658)
 
 ### Q.1.7 Pourquoi passez ce réseau en IPV6?
