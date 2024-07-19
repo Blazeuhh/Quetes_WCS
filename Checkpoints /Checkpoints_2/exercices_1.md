@@ -1,8 +1,20 @@
 ### Ping du du client au serveur et correction des problèmes
 
+- Nous voyons ici que le ping sur l'IPv4 du serveur `172 .16.10.10` ne fonctionne pas (pourtant le serveur et le client sont en réseau interne) :
+
 ![Capture d'écran 2024-07-19 091234](https://github.com/user-attachments/assets/217d3577-c9b6-49eb-86e7-51ca616c16c6)
 
+Nous allons voir pourquoi il y a ce problème , pour ce faire : 
+
+ - Allez dans `Control Panel` puis dans `Network and Internet`, `Network and Sharing Center` et `Change Adapter settings`.
+ - Puis séléctionner votre carte réseau et séléctionner `Properties`, cliquez sur `Internet Protocol IPV4`.
+
 ![Capture d'écran 2024-07-19 091806](https://github.com/user-attachments/assets/bd51bcc6-82bf-4e2e-992f-87d4df07a359)
+
+- Changez à présent l'adresse IP de votre ordinateur par `172.16.10.11`, laissez le Masque de sous-réseaux sur `255.255.255.0`.
+- Mettez pour la passerelle et le DNS l'IP sur serveur qui est `172.16.10.11`.
+
+A présent, vous pouvez réesayez le ping qui devvrait désormais fonctionner :
 
 ![Capture d'écran 2024-07-19 104335](https://github.com/user-attachments/assets/93ad3edd-3fb3-4997-885d-d38af5c4562e)
 
