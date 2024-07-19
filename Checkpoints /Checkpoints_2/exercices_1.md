@@ -4,8 +4,6 @@
 
 ![Capture d'écran 2024-07-19 091806](https://github.com/user-attachments/assets/bd51bcc6-82bf-4e2e-992f-87d4df07a359)
 
-![Capture d'écran 2024-07-19 091806](https://github.com/user-attachments/assets/5a1f35c9-b109-482b-a890-307fb9da1f59)
-
 ![Capture d'écran 2024-07-19 104335](https://github.com/user-attachments/assets/93ad3edd-3fb3-4997-885d-d38af5c4562e)
 
 
