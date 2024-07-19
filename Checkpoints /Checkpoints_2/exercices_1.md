@@ -46,5 +46,6 @@ Q1.6 :
 ![Capture d'écran 2024-07-19 101934](https://github.com/user-attachments/assets/c3b47b62-215a-4476-a783-08a0ddbfa658)
 Q1.7 : 
 Passer à IPv6 n'est pas simplement une réponse à l'épuisement des adresses IPv4. C'est une avancée vers une infrastructure réseau plus sécurisée, efficace et capable de supporter l'énorme croissance des dispositifs connectés et des nouvelles technologies. Bien que la transition nécessite un investissement en termes de mise à jour des équipements et des compétences, les bénéfices à long terme rendent IPv6 essentiel pour l'évolution des réseaux modernes.
+
 Q1.8 : 
 Non, le serveur DHCP n'est pas obsolète dans un réseau IPv6. Il continue à jouer un rôle important en gérant les adresses IP et en fournissant des informations de configuration supplémentaires aux clients. En IPv6, le DHCP est connu sous le nom de DHCPv6. 
