@@ -1,13 +1,13 @@
 ### Ping du du client au serveur et correction des problèmes
 
-- Nous voyons ici que le ping sur l'IPv4 du serveur `172 .16.10.10` ne fonctionne pas (pourtant le serveur et le client sont en réseau interne) :
+Nous voyons ici que le ping sur l'IPv4 du serveur `172 .16.10.10` ne fonctionne pas (pourtant le serveur et le client sont en réseau interne) :
 
 ![Capture d'écran 2024-07-19 091234](https://github.com/user-attachments/assets/217d3577-c9b6-49eb-86e7-51ca616c16c6)
 
 Nous allons voir pourquoi il y a ce problème , pour ce faire : 
 
- - Allez dans `Control Panel` puis dans `Network and Internet`, `Network and Sharing Center` et `Change Adapter settings`.
- - Puis séléctionner votre carte réseau et séléctionner `Properties`, cliquez sur `Internet Protocol IPV4`.
+ - Allez dans le **Panneau de configuration** puis dans **Internet et réseaux**, **Centre Réseau et Partage** et **Modifier les paramètres de l’adaptateur**.
+ - Puis séléctionner votre carte réseau et séléctionner **Propriétés**, cliquez sur **Protocole Internet version 4 (TCP/IPV4)**.
 
 ![Capture d'écran 2024-07-19 091806](https://github.com/user-attachments/assets/bd51bcc6-82bf-4e2e-992f-87d4df07a359)
 
@@ -22,15 +22,10 @@ A présent, vous pouvez réesayez le ping qui devvrait désormais fonctionner :
 ### Désactiver IPV6 et ping 
 
 1. **Ouvrir le Centre Réseau et Partage**
+
    - Faites un clic droit sur l'icône réseau dans la barre des tâches et sélectionnez **Ouvrir les paramètres de réseau et Internet**.
    - Dans la fenêtre qui s'ouvre, cliquez sur **Centre Réseau et Partage**.
-
-2. **Modifier les paramètres de l'adaptateur**
-   - Cliquez sur **Modifier les paramètres de l’adaptateur** dans le menu de gauche.
-   - Faites un clic droit sur la connexion réseau que vous souhaitez modifier (par exemple, Ethernet ou Wi-Fi) et sélectionnez **Propriétés**.
-
-3. **Désactiver IPv6**
-   - Dans la fenêtre des propriétés de la connexion, recherchez **Protocole Internet version 6 (TCP/IPv6)**.
+   - Cliquez sur **Modifier les paramètres de l’adaptateur** .
    - Décochez la case à côté de **Protocole Internet version 6 (TCP/IPv6)**.
    - Cliquez sur **OK** pour appliquer les modifications.
 
