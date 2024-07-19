@@ -1,3 +1,5 @@
+## Vérification d'une infrastructure réseau : 
+
 ### Q.3.1 Quel est le matériel réseau A ?
 
 - C'est un switch, il permet de connecter les ordinateurs entre-eux mais en local seulement.
@@ -53,11 +55,15 @@
 
 ### Q.3.10 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
 
-- Pour configurer les adresses IP des ordinateurs de manière dynamique, il est nécessaire de mettre en place un serveur DHCP (Dynamic Host Configuration Protocol) dans le réseau. Le DHCP est un protocole qui permet aux appareils d'obtenir automatiquement des adresses IP et d'autres paramètres de configuration réseau sans avoir à les configurer manuellement. 
+- Pour configurer les adresses IP des ordinateurs de manière dynamique, il est nécessaire de mettre en place un serveur DHCP (Dynamic Host Configuration Protocol) dans le réseau. Le DHCP est un protocole qui permet aux appareils d'obtenir automatiquement des adresses IP et d'autres paramètres de configuration réseau sans avoir à les configurer manuellement.
+
+## Analyse de trames Wireshark : 
 
 ### Fichier 1 :
 
 ### Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ? Déduis-en le nom du matériel.
+
+L'adresse MAC de 
 
 ### Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
 
