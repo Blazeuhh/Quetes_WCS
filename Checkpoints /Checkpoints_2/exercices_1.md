@@ -77,8 +77,10 @@ Ensuite il va falloir créer une réservation :
  - Allez dans le menu **DHCP**, **IPV4**, faites un clique droit sur **Réservations** puis **New-réservations**
  - Complétez les informations comme ci-dessous :
  
-![Capture d'écran 2024-07-19 101934](https://github.com/user-attachments/assets/c3b47b62-215a-4476-a783-08a0ddbfa658)
+ ![Capture d'écran 2024-07-19 101934](https://github.com/user-attachments/assets/c3b47b62-215a-4476-a783-08a0ddbfa658)
 
+ - Pour finir faites "Ajouter"
+ - 
 ### Q.1.7 Pourquoi passez ce réseau en IPV6?
 
 - Passer à IPv6 n'est pas simplement une réponse à l'épuisement des adresses IPv4. C'est une avancée vers une infrastructure réseau plus sécurisée, efficace et capable de supporter l'énorme croissance des dispositifs connectés et des nouvelles technologies. Bien que la transition nécessite un investissement en termes de mise à jour des équipements et des compétences, les bénéfices à long terme rendent IPv6 essentiel pour l'évolution des réseaux modernes.
