@@ -1,3 +1,21 @@
+### Q.2.5 : Problème code fichier Main.ps1
+
+Il se passe rien , le script ne se lance pas.
+
+**Modification :**
+
+```powershell
+$scriptPath = "C:\Users\wilder\Downloads\AddLocalUsers.ps1"
+
+# Vérifier si le script existe avant de tenter de l'exécuter
+if (Test-Path $scriptPath) {
+    Start-Process -FilePath "powershell.exe" -ArgumentList "-File `"$scriptPath`"" -Verb RunAs -WindowStyle Maximized
+} else {
+    Write-Host "Le fichier de script n'existe pas à l'emplacement spécifié." -ForegroundColor Red
+}
+```
+
+Utilisation Incorrecte de -ArgumentList donc je l'ai remplacé par -File, il y avais un mauvais chemin donc je l'ai remplacé par "C:\Users\wilder\Downloads\AddLocalUsers.ps1".
 
 ### Q.2.5 : Le premier utilisateur du fichier Users.csv n'est jamais pris en compte
 
@@ -7,7 +25,7 @@ L'utilisation de `Select-Object -Skip 2` saute les deux premières lignes du fic
 
 ```powershell
 $Users = Import-Csv -Path $CsvFile -Delimiter ";" -Header "prenom","nom","societe","fonction","service","description","mail","mobile","scriptPath","telephoneNumber" -Encoding UTF8
-```
+
 
 ### Q.2.6 : Le champ `Description` est importé du fichier CSV mais n'est pas utilisé
 
@@ -86,7 +104,6 @@ if (Get-LocalUser -Name "$Prenom.$Nom" -ErrorAction SilentlyContinue) {
 ### Q.2.11 : Ajout des utilisateurs dans le groupe des utilisateurs locaux
 
 **Modification :**
-Assurez-vous que le groupe est correctement nommé et que le compte utilisateur est ajouté :
 
 ```powershell
 Add-LocalGroupMember -Group "Users" -Member "$Prenom.$Nom"
@@ -121,7 +138,7 @@ If (-not(Get-LocalUser -Name $Name -ErrorAction SilentlyContinue))
 ### Q.2.13 : Le mot de passe n'expire pas
 
 **Modification :**
-Dans la définition du mot de passe, assurez-vous que `AccountNeverExpires` est bien à `$true` et `PasswordNeverExpires` à `$true` :
+Dans la définition du mot de passe, `AccountNeverExpires` est bien à `$true` et maintenant `PasswordNeverExpires`  est à `$true` :
 
 ```powershell
 $UserInfo = @{
@@ -157,13 +174,12 @@ La fonction `ManageAccentsAndCapitalLetters` supprime les accents des caractère
 
 **Exemple :**
 
-Pour la liste des utilisateurs avec des prénoms et noms accentués comme "René Dupont" :
+Pour l'utilisateur : "Mathéo Aubert" :
 
 ```powershell
-$Prenom = ManageAccentsAndCapitalLetters -String "René"
-$Nom = ManageAccentsAndCapitalLetters -String "Dupont"
-# Résultat : René -> Rene, Dupont -> dupont
+$Prenom = ManageAccentsAndCapitalLetters -String "Mathéo"
+$Nom = ManageAccentsAndCapitalLetters -String "Aubert"
+# Résultat : Mathéo -> matheo, Aubert -> aubert
 ```
 
 
-Cela devrait résoudre les problèmes que vous avez identifiés et répondre à toutes les questions posées.
