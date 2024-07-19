@@ -86,24 +86,103 @@ Adresse MAC Destination : 00:50:79:66:68:00
 
 ### Q.3.14 Dans le paquet N°2, quel est le protocole encapsulé ? Quel est son rôle ?
 
+Protocole Encapsulé : ARP (Address Resolution Protocol)
+Rôle du Protocole ARP
+ARP (Address Resolution Protocol) est un protocole utilisé pour mapper des adresses IP (Internet Protocol) à des adresses MAC (Media Access Control) dans un réseau local. Voici son rôle en détail :
+
 ### Q.3.15 Quels ont été les rôles des matériels A et B dans cette communication ?
+
+Matériel A (Switch) :
+
+Responsable de la commutation des trames ARP et ICMP au sein du réseau local.
+Assure que les trames sont dirigées vers les ports appropriés en fonction des adresses MAC.
+Matériel B (Routeur) :
+
+Serait responsable du routage des paquets entre différents réseaux si la communication nécessitait un accès à un autre sous-réseau.
+Non impliqué dans les communications ARP et ICMP observées qui se situent entièrement dans le même réseau local.
 
 ### Fichier 2 :
 
-### Q.3.16 Dans cette trame, qui initialise la communication ? Donne l'adresse IP ainsi que le nom du matériel.
+### Q.3.16 - Dans cette trame, qui initialise la communication ? Donne l'adresse IP ainsi que le nom du matériel.
 
-### Q.3.17 Quel est le protocole encapsulé ? Quel est son rôle ?
+La communication initiale est établie dans la trame précédente, c'est-à-dire la trame n°5. La trame n°6 est une réponse à la requête initiée dans la trame n°5.
 
-### Q.3.18 Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+**Trame n°5 :** 
+- **Source MAC:** 00:50:79:66:68:00
+- **Source IP:** 10.10.4.1
+- **Destination MAC:** 00:50:79:66:68:03
+- **Destination IP:** 10.10.4.2
 
-### Q.3.19 Explique la ligne du paquet N° 2
+Le matériel qui initialise la communication dans la trame n°5 est donc **PC1** avec l'adresse IP **10.10.4.1**.
 
-### Q.3.20 Quels ont été les rôles des matériels A et B ?
+### Q.3.17 - Quel est le protocole encapsulé ? Quel est son rôle ?
+
+**Protocole Encapsulé :** ICMP (Internet Control Message Protocol)
+
+**Rôle du Protocole ICMP :**
+- Le protocole ICMP est utilisé pour envoyer des messages de contrôle et des informations d'erreur dans un réseau IP. 
+- Les types courants de messages ICMP incluent les requêtes et réponses Echo (utilisées par la commande Ping) pour tester la connectivité entre les dispositifs, ainsi que les messages de destination inaccessible, de redirection, et d'écho-réponse.
+- Dans cette trame spécifique (trame n°6), le message ICMP est un **Echo (ping) reply** (Type 0), qui est utilisé pour répondre à une requête Echo (ping) request (Type 8). Cela indique que le dispositif de destination a reçu et traité la requête ping.
+
+### Q.3.18 - Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+
+**Oui, la communication a réussi.**
+
+#### Détails de la Communication :
+
+- **Requête Ping (trame n°5) :**
+  - **Source :** PC1 (10.10.4.1, MAC: 00:50:79:66:68:00)
+  - **Destination :** PC4 (10.10.4.2, MAC: 00:50:79:66:68:03)
+
+- **Réponse Ping (trame n°6) :**
+  - **Source :** PC4 (10.10.4.2, MAC: 00:50:79:66:68:03)
+  - **Destination :** PC1 (10.10.4.1, MAC: 00:50:79:66:68:00)
+
+Le succès de la communication est confirmé par la présence de la réponse ICMP Echo Reply dans la trame n°6, qui répond à la requête Echo Request de la trame n°5. Cela signifie que PC4 a correctement reçu et traité la requête ICMP de PC1 et a renvoyé une réponse.
+
+### Q.3.19 - Explique la ligne du paquet N° 2
+
+
+1. **Frame 2: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)**
+
+2. **Ethernet II, Src: ca:01:da:d2:00:08, Dst: 00:50:79:66:68:02**
+ 
+3. **Destination: 00:50:79:66:68:02**
+
+4. **Source: ca:01:da:d2:00:08**
+
+5. **Type: IPv4 (0x0800)**
+
+6. **Internet Control Message Protocol**
+   
+
+### Q.3.20 - Quels ont été les rôles des matériels A et B ?
+
+Switch A : Responsable de la commutation des trames Ethernet au sein du réseau local, assurant que les trames arrivent aux bons dispositifs en fonction des adresses MAC.
+Routeur B : Responsable de l'envoi et du routage des paquets IP entre différents réseaux, en prenant des décisions de routage basées sur les adresses IP source et destination.
+
 
 ### Fichier 3 :
 
-### Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.
+### Q.3.21 - Dans cette trame, donne les noms et les adresses IP des matériels sources et destination
 
-### Q.3.22 Quelles sont les adresses mac source et destination ? Qu'en déduis-tu ?
+- **Source:**
+  - **Nom du Matériel:** PC4
+  - **Adresse IP:** 10.10.4.2
 
-### Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?
+- **Destination:**
+  - **Nom du Matériel:** C'est une adresse IP appartenant au réseau 172.16.5.0/24. Il s'agit donc potentiellement d'un dispositif sur ce réseau. Sans information supplémentaire, le nom du matériel ne peut être déterminé précisément.
+  - **Adresse IP:** 172.16.5.253
+
+### Q.3.22 - Quelles sont les adresses MAC source et destination ? Qu'en déduis-tu ?
+
+- **Adresse MAC Source:**
+  - Dans la trame, l'adresse MAC source n'est pas explicitement mentionnée dans la ligne No. 1 du tableau. Cependant, si on se réfère aux informations de la trame précédente (et en supposant une continuité), l'adresse MAC source pourrait être `00:50:79:66:68:03` (adresse MAC de PC4).
+
+- **Adresse MAC Destination:**
+  - De même, l'adresse MAC de destination n'est pas explicitement mentionnée dans la ligne No. 1 du tableau. Si l'on suppose que le routeur est impliqué dans le routage des paquets entre les réseaux, l'adresse MAC de destination pourrait être celle du routeur, par exemple `ca:01:da:d2:00:08` (adresse MAC du routeur B).
+
+
+### Q.3.23 - À quel emplacement du réseau a été enregistrée cette communication ?
+
+La communication ICMP entre **10.10.4.2** et **172.16.5.253** indique un enregistrement potentiellement au niveau du routeur (routeur B), puisque le paquet doit passer par un routeur pour atteindre un réseau différent. Cela signifie que l'enregistrement de la trame a probablement eu lieu au point où les deux réseaux (10.10.0.0/16 et 172.16.5.0/24) sont connectés, c'est-à-dire au niveau du routeur.
