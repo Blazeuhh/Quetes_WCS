@@ -1,4 +1,4 @@
-### Q.2.5 : Problème code fichier Main.ps1
+### Q.2.2 : Problème code fichier Main.ps1
 
 Il se passe rien , le script ne se lance pas.
 
@@ -14,8 +14,17 @@ if (Test-Path $scriptPath) {
     Write-Host "Le fichier de script n'existe pas à l'emplacement spécifié." -ForegroundColor Red
 }
 ```
-
 Utilisation Incorrecte de `-ArgumentList` donc je l'ai remplacé par `-File`, il y avais un mauvais chemin donc je l'ai remplacé par `"C:\Users\wilder\Downloads\AddLocalUsers.ps1"` et il n'y a pas de vérification si il y a déjà le script ou non donc j'ai rajouté un `if`.
+
+### Q.2.3 : À quoi sert l'option `-Verb RunAs` ?
+
+L'option `-Verb RunAs` dans la commande `Start-Process` est utilisée pour exécuter un processus avec des privilèges élevés, c'est-à-dire en tant qu'administrateur. 
+
+
+### Q.2.4 : À quoi sert l'option `-WindowStyle Maximized` ?
+
+L'option `-WindowStyle Maximized` dans la commande `Start-Process` spécifie l'état de la fenêtre du processus lancé. 
+
 
 ### Q.2.5 : Le premier utilisateur du fichier Users.csv n'est jamais pris en compte
 
