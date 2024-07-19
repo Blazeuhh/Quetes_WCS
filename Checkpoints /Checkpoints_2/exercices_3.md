@@ -63,11 +63,26 @@
 
 ### Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ? Déduis-en le nom du matériel.
 
-L'adresse MAC de 
+- **Adresse MAC Source (Initie la Communication) :** `00:50:79:66:68:00`
+
+- **PC1 :** `00:50:79:66:68:00`, Adresse IP : `10.10.4.1`
+- **PC4 :** `00:50:79:66:68:03`, Adresse IP : `10.10.4.2`
+
 
 ### Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
 
+La trame initiale montre une requête de ping de PC1 vers PC4. Si la trame de réponse (Frame 6) est présente, cela confirme que la communication a réussi entre PC1 et PC4.
+
 ### Q.3.13 Dans cette capture, à quel matériel correspond le request et le reply ? Donne le nom, l'adresse IP, et l'adresse mac de chaque materiel.
+
+Request  :
+Matériel : PC1
+Adresse IP Source : 10.10.4.1
+Adresse MAC Source : 00:50:79:66:68:00
+Reply  :
+Matériel : PC4
+Adresse IP Destination : 10.10.4.1
+Adresse MAC Destination : 00:50:79:66:68:00
 
 ### Q.3.14 Dans le paquet N°2, quel est le protocole encapsulé ? Quel est son rôle ?
 
