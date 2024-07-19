@@ -5,7 +5,8 @@ Pour envoyer un dossier depuis un serveur Windows Server 2022 à un client Windo
 #### Sur le Serveur Windows Server 2022 :
 
 1. **Créer un Partage de Dossier** :
-   - **Ouvrir l'Explorateur de Fichiers**.
+
+    - **Ouvrir l'Explorateur de Fichiers**.
    - **Clic droit sur le dossier Scripts** et sélectionnez **Properties**.
    - Allez dans l'onglet **Sharing** et cliquez sur **Share**.
 
@@ -23,9 +24,9 @@ Pour envoyer un dossier depuis un serveur Windows Server 2022 à un client Windo
 #### Sur le Client Windows 10 :
 
 1. **Accéder au Dossier Partagé** :
+
    - **Ouvrir l'Explorateur de Fichiers**.
    - Dans la barre d'adresse, tapez le chemin du dossier partagé (par exemple, `\\WINSERV\Scripts`) et appuyez sur **Entrée**.
-   - Vous serez invité à entrer les informations d'identification si nécessaire. Entrez les informations d'identification du serveur si vous y êtes invité.
 
 ![Capture d'écran 2024-07-19 123931](https://github.com/user-attachments/assets/15862ba8-93f5-4ed3-af38-0536cc746977)
 
