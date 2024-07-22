@@ -11,7 +11,7 @@ Nous allons voir pourquoi il y a ce problème , pour ce faire :
 
 ![Capture d'écran 2024-07-19 091806](https://github.com/user-attachments/assets/bd51bcc6-82bf-4e2e-992f-87d4df07a359)
 
-- Changez à présent l'adresse IP de votre ordinateur par `172.16.10.11`, laissez le Masque de sous-réseaux sur `255.255.255.0`.
+- Changez à présent l'adresse IP de votre ordinateur par `172.16.10.10`, laissez le Masque de sous-réseaux sur `255.255.255.0`.
 - Mettez pour la passerelle et le DNS l'IP sur serveur qui est `172.16.10.11`.
 
 A présent, vous pouvez réesayez le ping qui devvrait désormais fonctionner :
