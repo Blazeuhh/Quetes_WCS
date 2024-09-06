@@ -117,7 +117,7 @@ Si vous ne parvenez toujours pas à accéder à **Drive Maps**, vous pouvez util
 1. **Créer un Script Batch (.bat)** :
    - Ouvrez un éditeur de texte (comme Notepad) et écrivez le script suivant :
 
-     ```batch
+     ```
      net use E: \\serveur\partageE /persistent:YES
      net use F: \\serveur\partageF /persistent:YES
      ```
