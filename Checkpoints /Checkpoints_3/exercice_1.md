@@ -108,7 +108,7 @@
    - **Durée de vie maximale du mot de passe** : Réduisez cette durée pour forcer les utilisateurs à changer leur mot de passe plus souvent (par exemple, tous les 60 jours).
    - **Mot de passe réversible** : Désactivez cette option pour éviter de stocker des mots de passe sous une forme réversible.
 
-**Exemple :**
+**Exemples :**
 
 ![Capture d'écran 2024-09-06 093738](https://github.com/user-attachments/assets/7d4b3731-b2e6-4436-a9f3-1c558ae7e088)
 
