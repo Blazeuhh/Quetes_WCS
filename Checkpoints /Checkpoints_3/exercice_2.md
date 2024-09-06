@@ -125,7 +125,7 @@ df -hT
 
     - Identifiez le nom du périphérique RAID :
 
-      ```bash
+   ```bash
      cat /proc/mdstat
      ```
    - Ajoutez le disque au RAID (par exemple, pour `/dev/md0`) :
