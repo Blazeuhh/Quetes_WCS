@@ -21,6 +21,8 @@
 
 ### Q.2.1.2 : Préconisations concernant ce compte
 
+1. Voici les préconisations que je propose : 
+
 - **Utilisation d’un mot de passe fort** : Assurez-vous que le mot de passe du compte est complexe, comprenant des lettres majuscules, des minuscules, des chiffres et des caractères spéciaux.
 - **Accès sudo restreint** : Accordez des privilèges sudo uniquement si nécessaire pour limiter les risques de modification accidentelle ou malveillante du système.
 - **Authentification par clé SSH** : Configurez l'authentification par clé SSH pour renforcer la sécurité.
