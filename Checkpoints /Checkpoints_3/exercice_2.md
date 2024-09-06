@@ -76,7 +76,7 @@
 
 ### Q.2.2.3 : Configurer l'authentification par clé SSH et désactiver l'authentification par mot de passe
 
-1. **Générer une paire de clés SSH** sur votre machine locale (si ce n'est pas déjà fait) :
+1. **Générer une paire de clés SSH** sur votre machine locale :
 
     ```bash
    ssh-keygen -t rsa -b 4096
