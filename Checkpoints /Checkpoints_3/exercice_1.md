@@ -56,20 +56,33 @@ Pour réaliser ces tâches, voici les étapes détaillées que vous pouvez suivr
 2. **Archiver le dossier de Kelly Rhameur** :
    - Localisez le dossier de Kelly Rhameur.
    - Renommez le dossier `Kelly Rhameur-ARCHIVE`.
+  
 
-![Capture d'écran 2024-09-06 093134](https://github.com/user-attachments/assets/64af34f1-289b-4f23-9d3c-82fbce21cfea)
+### Q.1.2.1 : Restreindre les heures de connexion pour l'utilisateur Gabriel Ghul
 
-![Capture d'écran 2024-09-06 093336](https://github.com/user-attachments/assets/0a139de3-b25b-4be9-9458-628e6b8d04f6)
 
-![Capture d'écran 2024-09-06 093415](https://github.com/user-attachments/assets/ab865215-e5cc-4185-a365-090cefca788f)
+1. **Configurer les heures de connexion** :
+   - Faites un clic droit sur le compte utilisateur **Gabriel Ghul** et sélectionnez **Propriétés**.
+   - Allez à l'onglet **Compte**.
+   - Cliquez sur **Heures de connexion**.
+   - Configurez les heures de connexion autorisées :
+     - **Lundi à Vendredi** : Cochez les jours de la semaine.
+     - **Heures** : Configurez de 07:00 à 17:00 pour chaque jour sélectionné.
 
-### Étapes pour Mettre en Place une Stratégie de Mot de Passe
+![Capture d'écran 2024-09-06 093336](https://github.com/user-attachments/assets/7e44d19f-177a-4d20-a1bb-0ba0b409b2e2)
+
+### Q.1.2.2 : Bloquer la connexion de Gabriel Ghul à l'ordinateur CLIENT01
+
+![Capture d'écran 2024-09-06 093415](https://github.com/user-attachments/assets/e1a3b93b-08ab-48d9-a53b-0104b23e6004)
+
+
+###  Q.1.2.3  Mettre en Place une Stratégie de Mot de Passe
 
 1. **Ouvrir la Console de Gestion des Stratégies de Groupe (GPMC)** :
    - Cliquez sur Démarrer et tapez `Gestion des stratégies de groupe`.
 
 2. **Créer une Nouvelle Stratégie de Groupe (GPO)** :
-   - Dans la console GPMC, faites un clic droit sur l'OU `LabUsers` dans l'arborescence de votre domaine.
+   - Faites un clic droit sur l'OU `LabUsers` dans l'arborescence de votre domaine.
    - Sélectionnez "Créer un objet GPO dans ce domaine, et le lier ici".
    - Donnez un nom à la nouvelle GPO, par exemple, "Stratégie de Mot de Passe LabUsers".
 
@@ -96,11 +109,30 @@ Pour réaliser ces tâches, voici les étapes détaillées que vous pouvez suivr
 
 ![Capture d'écran 2024-09-06 093858](https://github.com/user-attachments/assets/90829734-5292-4e30-b89a-dd97b3a399bd)
 
-5. **Lier et Appliquer la GPO à l'OU LabUsers** :
-   - Si ce n'est pas déjà fait, la GPO doit être liée à l'OU `LabUsers`. Si vous avez suivi les étapes, elle est déjà liée.
-   - Assurez-vous que la GPO est appliquée uniquement à l'OU `LabUsers` et qu'elle ne s'étend pas à d'autres OUs, à moins que cela soit intentionnel.
 
-6. **Vérifier l'Application de la Stratégie** :
-   - Pour vérifier que la stratégie est bien appliquée, vous pouvez utiliser la commande `gpupdate /force` sur un utilisateur de l'OU `LabUsers` ou redémarrer un ordinateur appartenant à cette OU.
-   - Vous pouvez aussi vérifier l'application de la GPO avec l'outil `gpresult` sur une machine utilisateur.
+###  Q.1.3.1  Utiliser un Script de Connexion
+
+Si vous ne parvenez toujours pas à accéder à **Drive Maps**, vous pouvez utiliser un script de connexion comme solution temporaire pour mapper les lecteurs réseau. Voici comment procéder :
+
+1. **Créer un Script Batch (.bat)** :
+   - Ouvrez un éditeur de texte (comme Notepad) et écrivez le script suivant :
+
+     ```batch
+     net use E: \\serveur\partageE /persistent:YES
+     net use F: \\serveur\partageF /persistent:YES
+     ```
+
+![Capture d'écran 2024-09-06 095140](https://github.com/user-attachments/assets/d493f818-e6db-44a7-8e3b-c323e808db06)
+
+- Enregistrer le fichier avec l'extension `.bat`.
+
+2. **Appliquer le Script via une GPO** :
+   - Dans l'**Éditeur de Gestion des Stratégies de Groupe** :
+     - Naviguez vers **User Configuration** > **Policies** > **Windows Settings** > **Scripts (Logon/Logoff)** > **Logon**.
+     - Ajoutez le script batch que vous avez créé.
+
+![Capture d'écran 2024-09-06 095148](https://github.com/user-attachments/assets/d3fb8a5f-c228-412e-b49e-a82f7b4087be)
+
+![Capture d'écran 2024-09-06 095213](https://github.com/user-attachments/assets/75ebae34-ea52-4c1f-8b9b-9df7d9fac2cd)
+
 
