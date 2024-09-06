@@ -104,10 +104,12 @@
 ## Partie 3 : Analyse du stockage
 
 ### Q.2.3.1 : Lister les systèmes de fichiers montés
-Utilisez la commande suivante pour lister les systèmes de fichiers actuellement montés :
+La commande suivante permet de lister les systèmes de fichiers actuellement montés :
 ```bash
 df -hT
 ```
+- Voici les systèmes de fichiers actuellement montés : 
+
 ![Capture d'écran 2024-09-06 101426](https://github.com/user-attachments/assets/96f58e9e-c36e-4ae7-b522-0c2117613625)
 
 ### Q.2.3.2 : Identifier le type de système de stockage utilisé
