@@ -1,6 +1,6 @@
 ## Exercice1
 
-### Partie 1 : Gestion des utilisateurs
+## Partie 1 : Gestion des utilisateurs
 
 ### Q.1.1.1 Créer l'utilisateur Lionel Lemarchand avec les mêmes attributs de société que Kelly Rhameur.
 
@@ -58,7 +58,8 @@
 2. **Archiver le dossier de Kelly Rhameur** :
    - Localisez le dossier de Kelly Rhameur.
    - Renommez le dossier `Kelly Rhameur-ARCHIVE`.
-  
+
+## Partie 2 : Restriction utilisateurs
 
 ### Q.1.2.1 : Restreindre les heures de connexion pour l'utilisateur Gabriel Ghul
 
@@ -111,10 +112,11 @@
 
 ![Capture d'écran 2024-09-06 093858](https://github.com/user-attachments/assets/90829734-5292-4e30-b89a-dd97b3a399bd)
 
+## Partie 3 : Lecteurs réseaux
 
 ###  Q.1.3.1  Utiliser un Script de Connexion
 
-Si vous ne parvenez toujours pas à accéder à **Drive Maps**, vous pouvez utiliser un script de connexion comme solution temporaire pour mapper les lecteurs réseau. Voici comment procéder :
+Vous pouvez utiliser un script de connexion pour mapper les lecteurs réseau :
 
 1. **Créer un Script Batch (.bat)** :
    - Ouvrez un éditeur de texte (comme Notepad) et écrivez le script suivant :
