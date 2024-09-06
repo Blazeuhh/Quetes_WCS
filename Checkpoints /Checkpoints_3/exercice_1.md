@@ -1,4 +1,6 @@
-## Exercice_1
+## Exercice1
+
+### Partie 1 : Gestion des utilisateurs
 
 ### Q.1.1.1 Créer l'utilisateur Lionel Lemarchand avec les mêmes attributs de société que Kelly Rhameur.
 
