@@ -59,6 +59,8 @@
    - Localisez le dossier de Kelly Rhameur.
    - Renommez le dossier `Kelly Rhameur-ARCHIVE`.
 
+![Capture d'écran 2024-09-06 093134](https://github.com/user-attachments/assets/b8864e50-4d08-43c1-b34c-94c88d8a7db1)
+
 ## Partie 2 : Restriction utilisateurs
 
 ### Q.1.2.1 : Restreindre les heures de connexion pour l'utilisateur Gabriel Ghul
