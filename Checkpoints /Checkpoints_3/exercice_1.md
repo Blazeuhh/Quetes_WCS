@@ -25,10 +25,10 @@ Pour réaliser ces tâches, voici les étapes détaillées que vous pouvez suivr
    - Nommez-la `DesactivatedUsers`.
 
 2. **Désactiver le compte de Kelly Rhameur** :
-   - Cliquez avec le bouton droit sur le compte de Kelly Rhameur dans ADUC, puis sélectionnez "Désactiver le compte".
+   - Cliquez avec le bouton droit sur le compte de Kelly Rhameur, puis sélectionnez "Désactiver le compte".
 
 3. **Déplacer le compte de Kelly Rhameur** :
-   - Faites glisser le compte de Kelly Rhameur dans la nouvelle OU `DeactivatedUsers`, ou faites un clic droit sur le compte, sélectionnez "Déplacer", puis choisissez `DeactivatedUsers` comme destination.
+   - Faites glisser le compte de Kelly Rhameur dans la nouvelle OU `DesactivatedUsers`, ou faites un clic droit sur le compte, sélectionnez "Déplacer", puis choisissez `DesactivatedUsers` comme destination.
 
 ![Capture d'écran 2024-09-06 104252](https://github.com/user-attachments/assets/0bc6f572-61d7-4da0-9146-50aa1016986e)
 
