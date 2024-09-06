@@ -1,4 +1,4 @@
-Pour réaliser ces tâches, voici les étapes détaillées que vous pouvez suivre :
+## Exercice_1
 
 ### Q.1.1.1 Créer l'utilisateur Lionel Lemarchand avec les mêmes attributs de société que Kelly Rhameur.
 
