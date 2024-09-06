@@ -1,4 +1,4 @@
-## Exercice1
+## Exercice 1
 
 ## Partie 1 : Gestion des utilisateurs
 
