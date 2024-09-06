@@ -137,7 +137,7 @@ df -hT
       ```bash
      sudo mdadm --manage /dev/md0 --add /dev/sdXx
      ```
-   - Remplacez `/dev/sdXx` par le nouveau disque. (sda1 dans cas)
+   - Remplacez `/dev/sdXx` par le nouveau disque. (sda1 dans mon cas)
 
 ### Q.2.3.4 : Créer un volume logique LVM de 2 Gio pour les sauvegardes
 
