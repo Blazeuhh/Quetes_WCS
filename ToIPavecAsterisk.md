@@ -109,5 +109,4 @@ Vous pouvez utiliser la CLI d'Asterisk pour vérifier si l'utilisateur est bien 
 sudo asterisk -rvv
 ```
 
-Cela vous permet de voir les logs en temps réel et d'effectuer des vérifications supplémentaires si nécessaire.
 
