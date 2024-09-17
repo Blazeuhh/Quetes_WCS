@@ -16,8 +16,8 @@
 
 3. **Télécharger et installer Asterisk :**
 
-   ```bash
- cd /usr/src
+```bash
+cd /usr/src
 sudo git clone https://github.com/asterisk/asterisk.git
 cd asterisk
 sudo git checkout 20.0.1
@@ -27,7 +27,7 @@ sudo make install
 sudo make samples
 sudo make config
 sudo make install-logrotate
-  ```
+```
 
 4. **Vérifier le statut du service Asterisk :**
 
