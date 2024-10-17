@@ -1,0 +1,38 @@
+# Script d'installation automatisée d'Active Directory, DNS et DHCP
+# À exécuter avec des privilèges d'administrateur sur un serveur Windows Server
+
+# Paramètres
+$domainName = "votredomaine.local"
+$netbiosName = "VOTREDOMAINE"
+$safeModeAdminPassword = ConvertTo-SecureString "VotreMotDePasseComplexe!" -AsPlainText -Force
+
+# Installation des rôles et fonctionnalités nécessaires
+Install-WindowsFeature -Name AD-Domain-Services, DNS, DHCP -IncludeManagementTools
+
+# Configuration d'Active Directory
+Import-Module ADDSDeployment
+Install-ADDSForest `
+    -CreateDnsDelegation:$false `
+    -DatabasePath "C:\Windows\NTDS" `
+    -DomainMode "WinThreshold" `
+    -DomainName $domainName `
+    -DomainNetbiosName $netbiosName `
+    -ForestMode "WinThreshold" `
+    -InstallDns:$true `
+    -LogPath "C:\Windows\NTDS" `
+    -NoRebootOnCompletion:$false `
+    -SysvolPath "C:\Windows\SYSVOL" `
+    -SafeModeAdministratorPassword $safeModeAdminPassword `
+    -Force:$true
+
+# Le serveur redémarrera automatiquement après cette étape
+
+# Configuration du DHCP (à exécuter après le redémarrage)
+Add-DhcpServerv4Scope -Name "Scope Principal" -StartRange 192.168.1.100 -EndRange 192.168.1.200 -SubnetMask 255.255.255.0
+Set-DhcpServerv4OptionValue -DnsDomain $domainName -DnsServer 192.168.1.1
+Add-DhcpServerInDC
+
+# Autoriser le serveur DHCP dans Active Directory
+Add-DhcpServerInDC
+
+Write-Host "Configuration d'AD, DNS et DHCP terminée. Veuillez vérifier les paramètres et effectuer les ajustements nécessaires."
